@@ -40,6 +40,7 @@ h1 {
   position: fixed;
   width: 100vw;
   background-color: var(--background-beige);
+  z-index: 200;
 }
 
 .integrantes {
@@ -54,6 +55,7 @@ h1 {
   position: fixed;
   width: 100vw;
   margin-top: 21vh;
+  z-index: 201;
 }
 
 nav {
@@ -136,4 +138,12 @@ section {
 
 img {
   width: 100%;
+  z-index: 0;
+}
+
+ol {
+  text-align: justify;
+  font-size: 2vw;
+  padding-top: 5vh;
+  padding: 0 10%;
 }
