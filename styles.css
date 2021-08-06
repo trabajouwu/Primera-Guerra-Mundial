@@ -1,0 +1,139 @@
+html {
+  background-color: #e4e3db;
+}
+
+* {
+  margin: 0;
+}
+
+*::selection {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(39, 39, 39);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(80, 80, 80);
+  transition: 1s;
+}
+
+:root {
+  --background-beige: #e4e3db;
+  --red: rgb(172, 0, 0);
+}
+
+/*Sección Principal*/
+
+h1 {
+  font-size: 6vw;
+  text-align: center;
+  font-weight: 500;
+  display: block;
+  padding: 2.5vh 2.5vw;
+  height: 15vh;
+  border: black solid 0.4rem;
+  border-bottom: black solid 0.2rem;
+  position: fixed;
+  width: 100vw;
+  background-color: var(--background-beige);
+}
+
+.integrantes {
+  background-color: var(--background-beige);
+  height: 4vh;
+  font-size: 1.5vw;
+  text-align: center;
+  font-weight: 200;
+  display: block;
+  padding: 1vh 2vw;
+  border: black solid 0.3rem;
+  position: fixed;
+  width: 100vw;
+  margin-top: 21vh;
+}
+
+nav {
+  margin-top: 28vh;
+  width: 25vw;
+  height: calc(72vh - 0.3rem);
+  border: 0.3rem solid black;
+  border-top: 0;
+  position: fixed;
+}
+
+.nav-cuadro {
+  width: calc(25vw + 0.2rem);
+  border-top: 0.15rem solid black;
+  border-bottom: 0.15rem solid black;
+  height: calc((72vh - 0.3rem) / 9.6);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-ancla {
+  font-size: 1.6vw;
+}
+
+.nav-ancla:hover,
+.nav-cuadro:hover {
+  color: var(--red);
+}
+
+.color-rojo {
+  color: var(--red);
+}
+
+.visible {
+  display: block;
+}
+
+/*Secciones*/
+
+section {
+  overflow-x: hidden;
+  padding-top: 28.3vh;
+  padding-left: calc(25vw + 0.65rem);
+  width: calc(100vw - (27vw));
+  display: none;
+  overflow-y: hidden;
+}
+
+.seccion-titulo {
+  text-align: center;
+  font-size: 3vw;
+  font-weight: 300;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  color: var(--red);
+}
+
+.linea {
+  text-align: center;
+  width: 40%;
+  margin-left: 30.5%;
+  height: 0.2rem;
+  background-color: var(--red);
+}
+
+.seccion-texto {
+  width: 80%;
+  padding-left: 10%;
+  text-align: justify;
+  font-size: 2vw;
+  padding-top: 5vh;
+}
+
+.imagen {
+  width: 60%;
+  padding: 5vh 20%;
+}
+
+img {
+  width: 100%;
+}
