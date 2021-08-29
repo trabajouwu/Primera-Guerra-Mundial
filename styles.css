@@ -148,3 +148,29 @@ ol {
   padding: 0 10%;
 }
 
+/*Audio*/
+
+.audio {
+  height: 3rem;
+  text-align: justify;
+  font-size: 2vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 5vh 2rem 0 10%;
+  border: black solid 2px;
+  width: 25vw;
+  padding: 1rem 2rem;
+}
+
+.audio img {
+  height: 2rem;
+  width: 2rem;
+  padding: 0 1rem;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.audio img:hover {
+  opacity: 100%;
+}
